@@ -1,0 +1,182 @@
+@media (max-width:767px) {
+    .header {
+        background-color: transparent;
+        top: 0;
+        padding: 0 15px;
+        height: 80px;
+        box-shadow: none;
+        text-align: center;
+    }
+
+    .header .container {
+        padding: 0;
+    }
+
+    .header .main-nav {
+        overflow: hidden;
+    }
+
+    .header .main-nav .logo-img {
+       position: absolute;
+       left: 30px;
+       top: 0;
+    }
+
+    .header .logo-img {
+        margin-top: 30px;
+    }
+
+    .header .main-nav .menu-trigger {
+        display: block;
+    }
+    
+}
+
+@media (max-width: 992px) {
+    .header .main-nav .menu-trigger span {
+        display: block;
+        width: 0;
+    }
+    .nav {
+        display: none !important;
+    }
+
+    .banner-img {
+        height: 190vh;
+        background-size: cover;
+    }
+    .banner-content {
+        padding: 0 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .align-self-center {
+        padding: 24px 8px 20px 8px;
+        max-width: 98vw;
+    }
+    .align-self-center .caption {
+        margin-right: 0;
+        margin-top: 0;
+        text-align: center;
+    }
+    .align-self-center .caption h2 {
+        font-size: 42px;
+        text-align: center;
+    }
+    .align-self-center .caption h6 {
+        font-size: 16px;
+        text-align: center;
+    }
+    .align-self-center .caption p {
+        font-size: 14px;
+        text-align: center;
+    }
+    .align-self-center .caption h2::after {
+        width: 200px;
+        height: 7px;
+        margin-left: 50px;
+    }
+
+    .offset-lg-2 {
+        max-width: 100% !important;
+        flex: 1 1 100% !important;
+        margin-left: 0 !important;
+    }
+    .col-lg-4 {
+        max-width: 100% !important;
+        flex: 1 1 100% !important;
+        margin-left: 0 !important;
+    }
+
+    .right-image {
+        width: 100%;
+        margin-top: 16px;
+    }
+
+    .offset-lg-2 .right-image .kai-img,
+    .kai-img {
+        height: 400px;      /* hoặc giá trị bạn muốn */
+        width: auto;        /* Để chiều rộng tự động theo tỷ lệ gốc */
+        object-fit: contain;/* Giữ nguyên tỷ lệ, không bị crop */
+        display: block;
+        margin: 0 auto;
+        border-radius: 10px;
+        max-width: 95vw;    /* Không tràn màn hình nhỏ */
+    }
+
+    .row2 {
+        margin-top: 0px;
+    }
+
+    .features .item {
+        width: 350px;
+        margin-bottom: 30px;
+    }
+
+    .trending .main-button {
+        display: none;
+    }
+
+    .most-played .section-heading {
+        text-align: center;
+    }
+
+    .most-played .main-button  {
+        display: none;
+    }
+    .cta .shop {
+        padding: 30px;
+        margin-bottom: 30px;
+    }
+
+    .cta .shop .section-heading {
+        margin-right: 0;
+    }
+
+    .cta .subscribe {
+        padding: 30px;
+    }
+
+    .cta .subscribe form button {
+        position: relative;
+        width: 100%;
+        margin-top: 15px;
+    }
+   
+    .page-img {
+        height: 50vh;
+        background-size: cover;
+    }
+
+    .trending-filter li {
+        margin: 5px 2px;
+    }
+
+    .trending-filter li a {
+        font-size: 13px;
+        padding: 8px 10px;
+    }
+
+    .single-product .left-image {
+        margin-right: 0;
+        margin-left: 8px;
+        margin-bottom: 45px;
+    }
+
+    .tabs-content ul.nav-tabs li {
+        margin-right: 15px;
+        padding-right: 15px;
+    }
+
+    .tabs-content .nav-link {
+        font-size: 16px;
+    }
+    
+    .contact-page .right-content {
+        margin-left: 0;
+        margin-top: 45px;
+    }
+}
+
